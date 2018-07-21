@@ -562,7 +562,7 @@ public class Trab {
 		String myPassword = inputTerminal.nextLine();
 			
 		for(int i = 0; i < accountsSize; ++i) {
-			if(allAccounts[loginDef][i] != null && (allAccounts[loginDef][i].equals(myLogin) && allAccounts[loginDef][i].equals(myPassword))) {
+			if(allAccounts[loginDef][i] != null && (allAccounts[loginDef][i].equals(myLogin) && allAccounts[passwordDef][i].equals(myPassword))) {
 				manageAccount(i);
 			}
 		}
